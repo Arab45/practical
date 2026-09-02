@@ -3,46 +3,46 @@ import java.util.Arrays;
 public class Task {
 public static void tasks(){
     //Personal Information
-    String name = "Olayiwola Nurudeen";
-    int age = 20;
-    String country = "Nigeria";
-
-    System.out.println("My name is" + " " + name);
-    System.out.println("I am" + " " + age + " " + "old");
-    System.out.println("I live in" + " " + country);
+//    String name = "Olayiwola Nurudeen";
+//    int age = 20;
+//    String country = "Nigeria";
+//
+//    System.out.println("My name is" + " " + name);
+//    System.out.println("I am" + " " + age + " " + "old");
+//    System.out.println("I live in" + " " + country);
 
     //Simple Calculator
-    int x = 10;
-    int y = 4;
-
-    System.out.println(x + y);
-    System.out.println(x * y);
-    System.out.println(x / y);
-    System.out.println(x % y);
+//    int x = 10;
+//    int y = 4;
+//
+//    System.out.println(x + y);
+//    System.out.println(x * y);
+//    System.out.println(x / y);
+//    System.out.println(x % y);
 
     //Even or Odd
-    int oddOrEven = 3;
-
-
-    if(10 % oddOrEven == 1){
-        System.out.println("This is odd number");
-    }else{
-        System.out.println("Left with even number");
-    }
+//    int oddOrEven = 3;
+//
+//
+//    if(10 % oddOrEven == 1){
+//        System.out.println("This is odd number");
+//    }else{
+//        System.out.println("Left with even number");
+//    }
 
 
     //Positive, Negative, or Zero
-    int num1 = 10; //11
-    int num2 = 2; //3
-    int result = num1 % num2;
-
-    if(result == 1){
-        System.out.println("Positive");
-    }else if(2 <= result){
-        System.out.println("Negative");
-    }else{
-        System.out.println("Zero");
-    }
+//    int num1 = 10; //11
+//    int num2 = 2; //3
+//    int result = num1 % num2;
+//
+//    if(result == 1){
+//        System.out.println("Positive");
+//    }else if(2 <= result){
+//        System.out.println("Negative");
+//    }else{
+//        System.out.println("Zero");
+//    }
 
     //Grade Checker
 
@@ -96,8 +96,18 @@ public static void tasks(){
 //    }
 
     //Countdown
-    for(int count = 10; count > 0; count--){
-        System.out.println(count);
+//    for(int count = 10; count > 0; count--){
+//        System.out.println(count);
+//    }
+
+    //Factorial
+    //Calculate the factorial of 5
+
+    for(int fact = 0; fact < 5; fact++){
+        int sum = 5;
+        sum *= fact;
+        System.out.println(sum);
+//        break;
     }
 }
 }

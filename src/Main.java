@@ -136,5 +136,15 @@ public class Main{
         System.out.println("Hello Java");
 
         Task.tasks();
+        Function data = new Function();
+        data.ageRange(20);
+        data.value(17);
+
+
+
+        System.out.println(Function.myMethod(3, 2));
+        System.out.println(Function.myMethod2(3.2, 2.3));
+
+
     }
 }
