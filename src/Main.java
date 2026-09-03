@@ -145,6 +145,28 @@ public class Main{
         System.out.println(Function.myMethod(3, 2));
         System.out.println(Function.myMethod2(3.2, 2.3));
 
+        Animal animal1 = new Animal();
+        Animal animal2 = new Animal();
+
+     animal1.name = "Dog";
+     animal1.gender = "Female";
+     animal1.age = 5;
+     animal1.process();
+     animal1.run();
+     animal1.giveBirth();
+
+     System.out.println("Welcome to my first animal class");
+
+        animal2.name = "Cat";
+        animal2.gender = "Male";
+        animal2.age = 2;
+        animal2.process();
+        animal2.run();
+        animal2.giveBirth();
+
+        System.out.println("Welcome to my second animal class");
+
+
 
     }
 }
