@@ -1,3 +1,5 @@
+import jdk.jshell.tool.JavaShellToolBuilder;
+
 public class Main{
     public static void main(String[] args){
         int num1 = 12;
@@ -165,6 +167,14 @@ public class Main{
         animal2.giveBirth();
 
         System.out.println("Welcome to my second animal class");
+
+        CreateCardPayment payment = new CreateCardPayment(300, "12345678912");
+
+        System.out.println(payment);
+        System.out.println(payment.getBalance());
+        System.out.println(payment.deposit(2000));
+        System.out.println(payment.getBalance());
+
 
 
 

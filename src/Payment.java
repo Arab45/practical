@@ -1,5 +1,5 @@
 public abstract class Payment implements Balance{
-    double balance;
+    double balance = 0;
     @Override
     public double balance() {
         return balance;
@@ -11,5 +11,22 @@ public abstract class Payment implements Balance{
         return total;
     }
 
+    @Override
+    public double getBalance(){
+       return balance();
+    }
 
+
+public double withdraw(double amount){
+        if(amount > balance){
+            System.out.println("Insufficient funds!");
+            return balance;
+        }
+        double withdrawBalance = amount - balance;
+        return withdrawBalance;
+}
+
+private String cardNumber;
+
+//    public creditCardPayment(double initiateBalance, ){}
 }

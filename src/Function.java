@@ -1,4 +1,4 @@
-public class Function {
+public class Function extends Payment{
     static int myMethod(int a, int b){
         int sum = a + b;
         return sum;

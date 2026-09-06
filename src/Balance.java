@@ -5,5 +5,5 @@ public interface Balance {
 
     double deposit(double amount);
 
-    double withdraw();
+    double withdraw(double amount);
 }
