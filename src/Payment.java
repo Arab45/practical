@@ -7,8 +7,8 @@ public abstract class Payment implements Balance{
 
     @Override
     public double deposit(double amount) {
-        double total = balance + amount;
-        return total;
+        balance += amount;
+        return balance;
     }
 
     @Override
