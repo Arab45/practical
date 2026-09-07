@@ -176,6 +176,9 @@ public class Main{
         System.out.println(payment.getBalance());
 
 
+        Constructor constructor = new Constructor( 3);
+
+        constructor.myMethod();
 
 
     }
