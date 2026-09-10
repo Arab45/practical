@@ -180,6 +180,10 @@ public class Main{
 
         constructor.myMethod();
 
+        ExpensesTracker tracker = new ExpensesTracker();
+
+        tracker.dailyTrackerExpenses();
+
 
     }
 }
